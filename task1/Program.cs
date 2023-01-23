@@ -16,12 +16,12 @@ if (numE == 4)
         if (num[numF] == num[numE])
         {
             numF++;
-            numE = numE -1;
+            numE = numE - 1;
         }
         else
         {
             Console.WriteLine($"{num[numF]} != {num[numE]} : число {num} не является палиндромом");
-            numF =5;
+            numF = 5;
         }
     }
     if (numF == 2) Console.WriteLine($"число {num} является палиндромом");
